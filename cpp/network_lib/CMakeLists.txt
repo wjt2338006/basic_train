@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.3)
+project(Network)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(SOURCE_FILES main.cpp Socket.cpp Socket.h)
+add_executable(Network ${SOURCE_FILES})
+target_link_libraries(Network ws2_32)
+SET(EXECUTABLE_OUTPUT_PATH ./build)

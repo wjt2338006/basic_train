@@ -1,0 +1,7 @@
+提供客户端和服务端，main.cpp中有相关单元测试，提供了几个测试函数（如TCP服务端）
+服务端可执行文件在build下，客户端可执行文件在TestClient下（已编译好）
+编译方法
+(linux tools)
+cmake .
+make
+vs只需要进行cmake后打开相应sln文件即可
